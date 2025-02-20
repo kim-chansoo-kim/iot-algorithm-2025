@@ -52,13 +52,14 @@ IoT 개발자 자료구조와 알고리즘(코딩테스트) 리포지토리 2025
         - 연결리스트 구현 : [파이썬](./day03/da01_linked_list.py)
         - 이중연결 리스트, 원형 리스트
         - 파이썬 list() : 연결리스트와 유사
-        - 연결 리스트 실습 : 
-            - 주소록[파이썬](./hands_on_practice/hop_linked.py)
-            - 헨젤과 그래텔[파이썬](./hands_on_practice/hop_cook.py)
-            - URL[파이썬](./hands_on_practice/hop_url.py)
         - 원형 연결 리스트 - 시작노드 변경시 오버헤드 없음
         - 이중 연결 리스트 - 앞에서 검색, 뒤에서 검색 용이
         - 연결 리스트 사용예 - 가상 메모리 관리, 윈도우 이벤트 관리 ...
+
+            - 연결 리스트 실습 : 
+                - 주소록[파이썬](./hands_on_practice/hop_linked.py)
+                - 헨젤과 그래텔[파이썬](./hands_on_practice/hop_cook.py)
+                - URL[파이썬](./hands_on_practice/hop_url.py)
 
     - 스택 : [노트북](./day03/da02_stack.ipynb)
         - 노트북 참조
@@ -73,12 +74,16 @@ IoT 개발자 자료구조와 알고리즘(코딩테스트) 리포지토리 2025
 - 자료구조
     - 큐
         - 큐 구현 : [파이썬](./day04/da01_queue.py)
-        - 원형 큐 구현[파이썬](./hands_on_practice/hop_cirqueue.py)
-        - 맛집 대기열[파이썬](./hands_on_practice/hop_rest.py)
+
+         - 큐 실습
+            - 원형 큐 구현[파이썬](./hands_on_practice/hop_cirqueue.py)
+            - 맛집 대기열[파이썬](./hands_on_practice/hop_rest.py)
 
     - 이진 트리 : [노트북](./day04/da02_binary_tree.ipynb)
         - 컴퓨터 시스템 등 많은 분야에서 사용
+        
         - 이진 트리 구현 : [파이썬](./day04/da03_binary_tree.py)
+
         - 이진 트리 실습
             - 편의점[파이썬](./hands_on_practice/hop_conve.py)
             - 폴더 및 하위 폴더에 중복된 파일 이름 찾기[파이썬](./hands_on_practice/hop_duplication_file.py)
@@ -86,7 +91,10 @@ IoT 개발자 자료구조와 알고리즘(코딩테스트) 리포지토리 2025
 ## 5일차
 - 자료구조
     - 그래프 : [노트북](./day05/da01_graph.ipynb)
+
         - 깊이우선탐색 : [파이썬](./day05/da02_dfs.py)
+
+        - 깊이우선탐색 실습
             - 최소비용신장트리 : [파이썬](./day05/da03_min_cost_spanningtree.py)
             - 허니버터칩 실습 : [파이썬](./hands_on_practice/hop_honey.py)
 
@@ -95,6 +103,26 @@ IoT 개발자 자료구조와 알고리즘(코딩테스트) 리포지토리 2025
 ## 6일차
 - 자료구조/알고리즘
     - 재귀호출
-        - 재귀호출 연습
-        
+        - 재귀호출 연습 : [노트북](./day06/da01_recursive_practice.ipynb)
+
+
+
+- 자료구조/알고리즘
+    - 정렬 : [노트북](./day06/da04_sort.ipynb)
+
+        - 정렬 실습
+            - 성적별 조 편성표 : [파이썬](./hands_on_practice/hop_sort.py)
+            - 2차원 배열의 중앙값 찾기 : [파이썬](./hands_on_practice/hop_selectionSort.py)
+
+## 7일차
+- 자료구조/알고리즘
     - 정렬
+        - 퀵 정렬
+        - 정렬 알고리즘 응용
+
+    - 동적 계획법
+
+## 8일차
+- 자료구조/알고리즘
+    - 검색
+    - 코딩테스트
