@@ -1,35 +1,38 @@
-# 함수 선언
-def growRich():
-    memo = [[0 for _ in range(COL)] for _ in range(ROW)]
-    memo[0][0] = goldMaze[0][0]
+import random
 
-    rowSum = memo[0][0]
-    for i in range(1, ROW):
-        rowSum += goldMaze[0][i]
-        memo[0][i] = rowSum
+## 이진검색 함수정의
+# ----------------------------------------------------------------------------------------
+def binSearch(ary, data):
+    count = 0
+    start = 0
+    end = len(ary) - 1  # 리스트의 마지막 인덱스
 
-    colSum = memo[0][0]
-    for i in range(1, COL):
-        colSum += goldMaze[i][0]
-        memo[i][0] = colSum
+    while (start <= end):  # 시작이 끝보다 커지면 검색실패
+        count += 1  # 하나씩 증가
+        mid = (start + end) // 2  # 중간값(시작과 끝자리의 반)
 
-    for row in range(1, ROW):
-        for col in range(1, COL):
-            if (memo[row][col-1] > memo[row-1][col]):
-                memo[row][col] = memo[row][col-1] + goldMaze[row][col]
-            else:
-                memo[row][col] = memo[row-1][col] + goldMaze[row][col]
+        if data == ary[mid]:  # 만약 데이터가 미드면
+            return mid, count  # 데이터 인덱스와 검색 횟수 반환
+        elif data > ary[mid]:
+            start = mid + 1  # 뒤쪽에 데이터가 있다
+        else:
+            end = mid - 1  # 앞쪽에 데이터가 있다
 
-    return memo[ROW-1][COL-1]
+    return -1, count  # 찾지 못한 경우
+# ----------------------------------------------------------------------------------------
 
-# 전역변수 선언
-ROW, COL = 5,5
-goldMaze = [[1,4,4,2,2],
-            [1,3,3,0,5],
-            [1,2,4,3,0],
-            [3,3,0,4,2],
-            [1,3,4,5,3],]
+# 전역변수
+# ----------------------------------------------------------------------------------------
+ary = random.sample(range(100001), 100000)
+ary.sort()  # 배열을 오름차순으로 정렬
+target = random.randint(0, 100000)  # 0과 100000 사이의 숫자 중 하나를 랜덤하게 선택
 
-# 메인 코드
-macolGold = growRich()
+# 이진검색 실행
+index, search_count = binSearch(ary, target)
 
+# 출력
+if index != -1:
+    print(f'목표 값 {target}을(를) 배열에서 찾았습니다. 인덱스: {index}, 검색 횟수: {search_count}')
+else:
+    print(f'목표 값 {target}을(를) 배열에서 찾을 수 없습니다. 검색 횟수: {search_count}')
+# ----------------------------------------------------------------------------------------
