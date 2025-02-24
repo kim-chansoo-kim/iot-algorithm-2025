@@ -57,9 +57,9 @@ IoT 개발자 자료구조와 알고리즘(코딩테스트) 리포지토리 2025
         - 연결 리스트 사용예 - 가상 메모리 관리, 윈도우 이벤트 관리 ...
 
             - 연결 리스트 실습 : 
-                - 주소록[파이썬](./hands_on_practice/day_03/hop_linked.py)
-                - 헨젤과 그래텔[파이썬](./hands_on_practice/day_03/hop_cook.py)
-                - URL[파이썬](./hands_on_practice/day_03/hop_url.py)
+                - 주소록 : [파이썬](./hands_on_practice/day_03/hop_linked.py)
+                - 헨젤과 그래텔 : [파이썬](./hands_on_practice/day_03/hop_cook.py)
+                - URL : [파이썬](./hands_on_practice/day_03/hop_url.py)
 
     - 스택 : [노트북](./day03/da02_stack.ipynb)
         - 노트북 참조
@@ -76,8 +76,8 @@ IoT 개발자 자료구조와 알고리즘(코딩테스트) 리포지토리 2025
         - 큐 구현 : [파이썬](./day04/da01_queue.py)
 
          - 큐 실습
-            - 원형 큐 구현[파이썬](./hands_on_practice/day_04/hop_cirqueue.py)
-            - 맛집 대기열[파이썬](./hands_on_practice/day_04/hop_rest.py)
+            - 원형 큐 구현 : [파이썬](./hands_on_practice/day_04/hop_cirqueue.py)
+            - 맛집 대기열 : [파이썬](./hands_on_practice/day_04/hop_rest.py)
 
     - 이진 트리 : [노트북](./day04/da02_binary_tree.ipynb)
         - 컴퓨터 시스템 등 많은 분야에서 사용
@@ -85,8 +85,8 @@ IoT 개발자 자료구조와 알고리즘(코딩테스트) 리포지토리 2025
         - 이진 트리 구현 : [파이썬](./day04/da03_binary_tree.py)
 
         - 이진 트리 실습
-            - 편의점[파이썬](./hands_on_practice/day_04/hop_conve.py)
-            - 폴더 및 하위 폴더에 중복된 파일 이름 찾기[파이썬](./hands_on_practice/day_04/hop_duplication_file.py)
+            - 편의점 : [파이썬](./hands_on_practice/day_04/hop_conve.py)
+            - 폴더 및 하위 폴더에 중복된 파일 이름 찾기 : [파이썬](./hands_on_practice/day_04/hop_duplication_file.py)
 
 ## 5일차
 - 자료구조
@@ -121,10 +121,20 @@ IoT 개발자 자료구조와 알고리즘(코딩테스트) 리포지토리 2025
     - 정렬
         - 퀵 정렬
         - 정렬 알고리즘 응용
+            - 이미지 처리 : [파이썬](./day07/da02_image_process.py)
 
-    - 동적 계획법
+            <img src="./image/cupdog_black.png" width="600">
+
+            - 이미 정렬된 줄에 끼어들기 : [파이썬](./hands_on_practice/day_07/hop_alreadySort.py)
+            - 선택 정렬과 퀵 정렬의 성능 비교하기 : [파이썬](./hands_on_practice/day_07/hop_sSort_qSort.py)
+
+    - 동적 계획법 : [노트북](./day07/da03_dynamic_programming.ipynb)
+        - 황금미로예제 : [파이썬](./hands_on_practice/day_07/hop_gold.py)
 
 ## 8일차
 - 자료구조/알고리즘
-    - 검색
+    - 검색 : [노트북](./day08/da01_search.ipynb)
+        - 검색 구현
+            - 도서관 책찾기 : [파이썬](./hands_on_practice/day_08/hop_book.py)
+            - 편의점 판매목록 : [파이썬](./hands_on_practice/day_08/hop_binserch.py)
     - 코딩테스트
